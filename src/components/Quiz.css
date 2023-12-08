@@ -1,0 +1,79 @@
+.questions {
+  background-color: white;
+  width: 52%;
+  height: 33rem;
+  color: black;
+  margin-left: 21rem;
+  border-radius: 5px;
+}
+.answers {
+  width: 80%;
+  background-color: white;
+  border: 1px solid black;
+  height: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.next-submit {
+  width: 20%;
+  height: 2rem;
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+  border: none;
+}
+
+.timer {
+  margin-left: 34rem;
+  margin-top: -2rem;
+}
+
+.question-number {
+  margin-right: 32rem;
+  padding-top: 1rem;
+}
+.result {
+  padding-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  height: 20rem;
+  display: block;
+  margin-left: 29rem;
+  margin-top: 3rem;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.result-detailes {
+  margin-bottom: 2rem;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+.all {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.sub-all {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.answers.hovered {
+  background-color: lightblue; 
+}
+
+.answers.selected {
+  background-color: lightblue;
+}

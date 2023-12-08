@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  color: white;
+  margin-top: 4rem;
+}
+body {
+  background-image: url("https://www.bangor.ac.uk/sites/default/files/styles/16x9_1100w/public/2020-05/shutterstock_1252112308%20Resized.jpg?h=d3aaaeb5&itok=pdlLp-Sj");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+.intro {
+  width: 30rem;
+  height: 9rem;
+  background-color: white;
+  color: black;
+  padding-top: 3rem;
+  margin-top: 5rem;
+  border-radius: 6px;
+  margin-left: 27rem;
+}
+
+.start-button {
+  background-color: black;
+  color: white;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 2px;
+}
